@@ -2,7 +2,7 @@
 
 Este es un programa simple para gestionar y sortear amigos secretos. Permite agregar nombres a una lista y luego sortear un amigo al azar.
 
-[Demostración](assets/videoPrograma.mp4)
+![Demostración](assets/videoPrograma.mp4)
 
 Pruebalo en el siguiente link: https://carlovich01.github.io/challenge-amigo-secreto_esp-main/
 
