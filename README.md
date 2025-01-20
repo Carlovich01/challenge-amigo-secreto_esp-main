@@ -19,11 +19,19 @@ El proyecto tiene la siguiente estructura de archivos:
 
 ### Agregar Amigos
 
-Puedes agregar nombres de amigos utilizando el campo de entrada y el botón "Añadir". Los nombres se mostrarán en una lista en la pantalla.
+Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar". 
 
-### Sortear Amigo
+### Validar entrada
 
-Puedes sortear un amigo al azar utilizando el botón "Sortear amigo". El nombre del amigo sorteado se mostrará en la pantalla.
+Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
+
+### Visualizar la lista 
+
+Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
+
+### Sorteo aleatorio
+
+Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
 ## Instalación y ejecucion
 
@@ -33,7 +41,7 @@ Puedes sortear un amigo al azar utilizando el botón "Sortear amigo". El nombre 
     ```
 2. Navega al directorio del proyecto:
     ```sh
-    cd <NOMBRE_DEL_DIRECTORIO>
+    cd challenge-amigo-secreto_esp-main
     ```
 3. Abre el archivo index.html en tu navegador web.
 
