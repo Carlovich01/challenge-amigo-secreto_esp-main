@@ -1,6 +1,6 @@
 # Amigo Secreto
 
-Este es un programa simple para gestionar y sortear amigos secretos. Permite agregar nombres a una lista y luego sortear un amigo al azar.
+Este es un programa simple que permite agregar nombres a una lista y luego sortear un amigo al azar.
 
 ![Demostración](assets/Demostracion.gif)
 
