@@ -39,6 +39,11 @@ body {
     padding: 40px 0 0;
 }
 
+.banner-image {
+    width: 100%;
+    max-width: 400px;
+}
+
 /* Sección de entrada */
 .input-section {
     flex: 60%;
@@ -159,4 +164,46 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+@media (max-width: 850px) {
+    .header-banner {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 380px) {
+    .main-title, .section-title {
+        font-size: 30px;
+    }
+
+    .banner-image{
+        max-width: 200px;
+    }
+
+    .input-name{
+        font-size: 14px;
+    }
+
+    .button-add {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .button-container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button-draw {
+        flex-direction: column;
+        padding: 10px 20px;
+        font-size: 14px;
+        width: auto;
+    }
+
+    .button-draw img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
